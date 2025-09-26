@@ -3,11 +3,132 @@ What is cloud computing?
 In simple words, cloud computing means you don't need to own the physical hardware. You rent things like storage,server,networking over the internet and you only pay for what you use and since all these resources
 sit virtualy in the internet and can be accessed with the use of internet and this way of accesssing resources is called cloud computing.(computing that happens over the internet)
 
+
 Definition : US National Institute of Standards and Technology (NIST) defines Computing as:
 “ Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a
 shared pool of configurable computing resources (e.g. networks, servers, storage, applications,
 and services) that can be rapidly provisioned and released with minimal management effort or
 service provider interaction. ”
+
+
+simple example: If you have a 1000 photos and you want all of them the storage will be full in your phone, instead of using pendrives to store you can simply store them in GoogleDrive.
+We all are using cloud in dailylife like
+GoogleDrive: Store files online
+Gmail      :send/receive emails, all hosted on google's server
+Netflix/YouTube: Streaming from remote data centers
+Instagram  : Photos stores and served from the cloud
+Zoom  : Video calls handled via cloud servers
+
+Evolving of Computing:
+
+Tratditional IT(Physical Servers)
+problems:  High upfront cost, wasted resources, manual maintenance, hard to scale
+
+Virtualization(Smart Hardware use):
+Then came virtualization- a game changer.
+Insted of running one OS on one machine, virtualization allowed you to split one physical server into multiple 'virtual' ones.
+
+Virtual Workspaces:
+– An abstraction of an execution environment that can be made dynamically available to
+authorized clients by using well-defined protocols,
+– Resource quota (e.g. CPU, memory share),
+– Software configuration (e.g. OS).
+• Implement on Virtual Machines (VMs):
+– Abstraction of a physical host machine,
+– Hypervisor intercepts and emulates instructions from VMs, and allows management of VMs,
+– VMWare, Xen, KVM etc.
+• Provide infrastructure API:
+– Plug-ins to hardware/support structures.
+
+
+Virtualization in General
+• Advantages of virtual machines:
+– Run operating systems where the physical hardware is unavailable,
+– Easier to create new machines, backup machines, etc.,
+– Software testing using “clean” installs of operating systems and software,
+– Emulate more machines than are physically available,
+– Timeshare lightly loaded systems on one host,
+– Debug problems (suspend and resume the problem machine),
+– Easy migration of virtual machines (shutdown needed or not).
+– Run legacy systems
+
+Advantages of Cloud Computing
+1. Lower Computer Costs
+💡 No need for powerful or expensive PCs, since apps run in the cloud.
+
+2. Improved Performance
+💡 Fewer programs on your PC = faster boot and better performance.
+
+3. Reduced Software Costs
+💡 Many cloud apps (like Google Docs) are free, avoiding expensive licenses.
+
+4. Instant Software Updates
+💡 Web apps update automatically; you always get the latest version.
+
+5. Improved Document Compatibility
+💡 Cloud apps reduce format issues across different OS or software.
+
+6. Unlimited Storage
+💡 Cloud offers virtually limitless space compared to local hard drives.
+
+7. Increased Data Reliability
+💡 Data remains safe in the cloud even if your device crashes.
+
+8. Universal Information Access
+💡 Access documents anywhere with internet – always the latest version.
+
+9. Easier Group Collaboration
+💡 Multiple users can work together on the same document/project.
+
+10. Device Independence
+💡 Your apps and data follow you across devices (PC, laptop, phone, etc.).
+
+Core Charactersics of Cloud:
+Use of acornym OBREP to make it easy to remember:
+On-demand        -Instant acess resources
+Broad access     -Use from anywhere with internet
+Elasticity       -Auto-scale up or own
+Resource pooling -Shared but secure infrastructure(Hotel rooms or electricity grid)
+Pay-as-you-go    -Pay only for what you use
+
+
+Cloud Services Models
+
+• Software as a Service (SaaS)
+ The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications
+are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email),
+or a program interface.
+
+ The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems,
+storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration
+settings.
+ e.g: Google Spread Sheet
+
+• Cloud Infrastructure as a Service (IaaS)
+ The capability provided to provision processing, storage, networks, and other fundamental computing resources
+ Consumer can deploy and run arbitrary software
+ e.g: Amazon Web Services and Flexi scale.
+
+Platform as a Service (PaaS)
+ The capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or
+acquired applications created using programming languages, libraries, services, and tools supported by the
+provider.
+
+ The consumer does not manage or control the underlying cloud infrastructure including network, servers,
+operating systems, or storage, but has control over the deployed applications and possibly configuration
+settings for the application-hosting environment.
+
+
+
+Pizza as a Service Models
+
+On-Premises (Do-it-yourself) → You make pizza at home: buy ingredients, cook, wash dishes.
+IaaS (Infrastructure as a Service) → You get a frozen pizza: oven & effort still needed.
+PaaS (Platform as a Service) → You get a delivered pizza: just eat, no cooking.
+SaaS (Software as a Service) → You eat pizza at a restaurant: everything handled for you.
+
+⚡ Super short:
+👉 IaaS = Frozen pizza | PaaS = Delivery pizza | SaaS = Restaurant pizza
 
 
 
